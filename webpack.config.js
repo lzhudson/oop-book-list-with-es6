@@ -2,7 +2,7 @@ const path = require('path');
 /** @type {import('webpack').Configuration} */
 
 module.exports = {
-  entry: path.resolve(__dirname, 'app.js'),
+  entry: path.resolve(__dirname, 'src', 'app.js'),
   output: {
     path: path.resolve(__dirname),
     filename: 'bundle.js'
